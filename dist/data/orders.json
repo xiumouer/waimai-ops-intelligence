@@ -1,0 +1,138 @@
+[
+  {
+    "orderId": "O-10001",
+    "createdAt": "2025-11-05T10:00:00+08:00",
+    "eta": "2025-11-05T10:40:00+08:00",
+    "deliveredAt": "2025-11-05T10:36:00+08:00",
+    "status": "已完成",
+    "cancelReason": null,
+    "merchant": { "lat": 31.2304, "lng": 121.4737 },
+    "customer": { "lat": 31.2243, "lng": 121.4750 },
+    "timeline": {
+      "dispatchAt": "2025-11-05T10:01:30+08:00",
+      "acceptedAt": "2025-11-05T10:03:00+08:00",
+      "arrivedStoreAt": "2025-11-05T10:15:00+08:00",
+      "pickedAt": "2025-11-05T10:18:00+08:00"
+    },
+    "rider": { "riderId": "R-001", "name": "张三", "site": "静安区" }
+  },
+  {
+    "orderId": "O-10002",
+    "createdAt": "2025-11-05T10:05:00+08:00",
+    "eta": "2025-11-05T10:45:00+08:00",
+    "deliveredAt": "2025-11-05T10:52:00+08:00",
+    "status": "已完成",
+    "cancelReason": null,
+    "merchant": { "lat": 31.2360, "lng": 121.4780 },
+    "customer": { "lat": 31.2200, "lng": 121.4805 },
+    "timeline": {
+      "dispatchAt": "2025-11-05T10:06:00+08:00",
+      "acceptedAt": "2025-11-05T10:08:00+08:00",
+      "arrivedStoreAt": "2025-11-05T10:22:00+08:00",
+      "pickedAt": "2025-11-05T10:25:00+08:00"
+    },
+    "rider": { "riderId": "R-002", "name": "李四", "site": "黄浦区" }
+  },
+  {
+    "orderId": "O-10003",
+    "createdAt": "2025-11-05T10:08:00+08:00",
+    "eta": "2025-11-05T10:38:00+08:00",
+    "deliveredAt": null,
+    "status": "已取消",
+    "cancelReason": "用户取消",
+    "merchant": { "lat": 31.2280, "lng": 121.4700 },
+    "customer": { "lat": 31.2295, "lng": 121.4685 },
+    "timeline": {
+      "dispatchAt": "2025-11-05T10:09:00+08:00",
+      "acceptedAt": null,
+      "arrivedStoreAt": null,
+      "pickedAt": null
+    },
+    "rider": { "riderId": "R-003", "name": "王五", "site": "徐汇区" }
+  },
+  {
+    "orderId": "O-10004",
+    "createdAt": "2025-11-05T10:12:00+08:00",
+    "eta": "2025-11-05T10:50:00+08:00",
+    "deliveredAt": "2025-11-05T10:48:00+08:00",
+    "status": "已完成",
+    "cancelReason": null,
+    "merchant": { "lat": 31.2400, "lng": 121.4600 },
+    "customer": { "lat": 31.2420, "lng": 121.4650 },
+    "timeline": {
+      "dispatchAt": "2025-11-05T10:13:00+08:00",
+      "acceptedAt": "2025-11-05T10:14:00+08:00",
+      "arrivedStoreAt": "2025-11-05T10:32:00+08:00",
+      "pickedAt": "2025-11-05T10:35:00+08:00"
+    },
+    "rider": { "riderId": "R-001", "name": "张三", "site": "静安区" }
+  },
+  {
+    "orderId": "O-10005",
+    "createdAt": "2025-11-05T10:20:00+08:00",
+    "eta": "2025-11-05T10:55:00+08:00",
+    "deliveredAt": "2025-11-05T10:59:00+08:00",
+    "status": "已完成",
+    "cancelReason": null,
+    "merchant": { "lat": 31.2500, "lng": 121.4800 },
+    "customer": { "lat": 31.2440, "lng": 121.4850 },
+    "timeline": {
+      "dispatchAt": "2025-11-05T10:21:00+08:00",
+      "acceptedAt": "2025-11-05T10:22:00+08:00",
+      "arrivedStoreAt": "2025-11-05T10:35:00+08:00",
+      "pickedAt": "2025-11-05T10:38:00+08:00"
+    },
+    "rider": { "riderId": "R-004", "name": "赵六", "site": "浦东新区" }
+  },
+  {
+    "orderId": "O-10006",
+    "createdAt": "2025-11-05T10:25:00+08:00",
+    "eta": "2025-11-05T11:00:00+08:00",
+    "deliveredAt": "2025-11-05T11:10:00+08:00",
+    "status": "已完成",
+    "cancelReason": null,
+    "merchant": { "lat": 31.2100, "lng": 121.4700 },
+    "customer": { "lat": 31.2050, "lng": 121.4650 },
+    "timeline": {
+      "dispatchAt": "2025-11-05T10:26:00+08:00",
+      "acceptedAt": "2025-11-05T10:27:00+08:00",
+      "arrivedStoreAt": "2025-11-05T10:40:00+08:00",
+      "pickedAt": "2025-11-05T10:42:00+08:00"
+    },
+    "rider": { "riderId": "R-002", "name": "李四", "site": "黄浦区" }
+  },
+  {
+    "orderId": "O-10007",
+    "createdAt": "2025-11-05T10:30:00+08:00",
+    "eta": "2025-11-05T11:05:00+08:00",
+    "deliveredAt": null,
+    "status": "配送中",
+    "cancelReason": null,
+    "merchant": { "lat": 31.2200, "lng": 121.4900 },
+    "customer": { "lat": 31.2180, "lng": 121.4920 },
+    "timeline": {
+      "dispatchAt": "2025-11-05T10:31:00+08:00",
+      "acceptedAt": "2025-11-05T10:33:00+08:00",
+      "arrivedStoreAt": "2025-11-05T10:50:00+08:00",
+      "pickedAt": "2025-11-05T10:53:00+08:00"
+    },
+    "rider": { "riderId": "R-005", "name": "钱七", "site": "虹口区" }
+  },
+  {
+    "orderId": "O-10008",
+    "createdAt": "2025-11-05T10:35:00+08:00",
+    "eta": "2025-11-05T11:15:00+08:00",
+    "deliveredAt": "2025-11-05T11:12:00+08:00",
+    "status": "已完成",
+    "cancelReason": null,
+    "merchant": { "lat": 31.2600, "lng": 121.5000 },
+    "customer": { "lat": 31.2580, "lng": 121.5050 },
+    "timeline": {
+      "dispatchAt": "2025-11-05T10:36:00+08:00",
+      "acceptedAt": "2025-11-05T10:38:00+08:00",
+      "arrivedStoreAt": "2025-11-05T10:55:00+08:00",
+      "pickedAt": "2025-11-05T10:58:00+08:00"
+    },
+    "rider": { "riderId": "R-004", "name": "赵六", "site": "浦东新区" }
+  }
+]

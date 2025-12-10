@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>外卖配送数据与资金可视化平台</title>
+    <link rel="stylesheet" href="/leaflet.css" />
+    <style>
+      :root { --bg: #0f172a; --panel: #111827; --text: #e5e7eb; --muted: #9ca3af; --accent: #22d3ee; }
+      html, body, #root { height: 100%; }
+      body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Microsoft YaHei", sans-serif; }
+      .container { max-width: 1280px; margin: 0 auto; padding: 16px; }
+      .header { display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; }
+      .tabs { display:flex; gap:8px; }
+      .tab { padding:8px 12px; background:#1f2937; border-radius:8px; color:var(--muted); text-decoration:none; }
+      .tab.active { color:var(--text); background:#334155; }
+      .grid { display:grid; grid-template-columns: repeat(12, 1fr); gap:12px; }
+      .card { background: var(--panel); border-radius:12px; padding:12px; box-shadow: 0 0 0 1px #1f2937 inset; }
+      .kpi { display:grid; grid-template-columns: repeat(4,1fr); gap:12px; }
+      .kpi .item { background:#111827; padding:12px; border-radius:10px; }
+      .kpi .value { font-size:24px; color:var(--accent); }
+      a { color: var(--accent); }
+    </style>
+    <script type="module" crossorigin src="/assets/index-CDVkrJgl.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  
+</html>
