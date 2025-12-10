@@ -41,9 +41,6 @@ npm install
 VITE_AMAP_KEY=你的高德Key
 VITE_AMAP_SECURITY_JS=你的安全校验码 # 可选
 ```
-
-不建议将真实密钥提交到仓库。生产环境应通过安全配置注入。
-
 ### 启动前端
 
 ```bash
@@ -65,17 +62,6 @@ npm run server
 ```bash
 curl -X POST http://localhost:3000/api/ingest
 ```
-
-### 启动移动端 WebSocket 服务（可选）
-
-```bash
-cd map_test_Demo
-npm install
-npm run ws        # 启动 ws://localhost:8080/
-npm run dev       # 启动移动端 Demo 前端（默认 http://localhost:5173/）
-```
-
-在移动端 Demo 登录（使用手机号），并进行定位或地图点击，WS 服务会广播 `type='pos'` 的定位消息。网页端“智能派单”页选择同一骑手 ID（即手机号），即可实时接收位置、渲染轨迹与路线。
 
 ## 主要页面入口
 
