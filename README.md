@@ -6,16 +6,17 @@
 
 - Python `3.10+`
 - Node.js `18+`
+- IDE自行选择
 
 ## 快速开始
 
 - 启动后端 API（默认端口 `8001`）：
-  - `python server.py`
+  - `python server.py`  
 - 安装与启动前端（Vite，默认端口 `5173`）：
-  - `cd frontend && npm install`
-  - `npm run dev`
+  - `cd frontend && npm install` //安装依赖到指定的包
+  - `npm run dev` //启动服务
 - 打开管理端页面：
-  - `http://localhost:5173/`
+  - `http://localhost:5173/` 在本地浏览器查看
 - 打开骑手端页面：
   - `http://localhost:5173/rider.html`
 
@@ -69,17 +70,8 @@
 - 页面无数据：确认 `server.py` 已启动；`frontend/public/config.local.js`的 `API_BASE` 或使用 Vite 代理。
 - 地图不显示：确认 `AMAP_KEY` 有效；无 Key 时自动回退到二维坐标渲染。
 
-## 发布到 GitHub 的文件建议
-
-- 应上传：
-  - 根目录：`server.py`、`README.md`、`config.example.js`、`init_config.py`、`inspect_db.py`、`scripts/`
-  - 前端：`frontend/src/**`、`frontend/public/config.example.js`、`frontend/index.html`、`frontend/vite.config.ts`、`frontend/package.json`、`frontend/tsconfig.json`、`frontend/rider.html`
-- 不应上传（已在 `.gitignore` 中忽略）：
-  - `data.db`、`backups/`、`server.log`、`__pycache__/`、`*.pyc`
-  - `frontend/node_modules/`、`frontend/dist/`
-  - `frontend/public/config.local.js`（包含私钥/本地地址）
-
 ## 许可证
 
 本项目示例用途，未附带许可证，按你的组织策略添加许可证文件。
+
 
