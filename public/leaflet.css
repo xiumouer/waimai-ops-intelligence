@@ -1,2 +1,0 @@
-/* minimal leaflet css import proxy to avoid external fetch */
-@import url("https://unpkg.com/leaflet@1.9.4/dist/leaflet.css");
